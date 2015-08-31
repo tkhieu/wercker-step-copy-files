@@ -13,6 +13,10 @@ properties:
     destination:
         type: string
         required: true
+    flags:
+        type: string
+        default: "-R"
+        required: false
     ignore_branches:
         type: string
         default: ""
