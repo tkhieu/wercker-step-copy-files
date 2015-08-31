@@ -1,5 +1,13 @@
 #/bin/sh
 
+# http://stackoverflow.com/a/8574392/1592358
+contains_element ()
+{
+  local e
+  for e in "${@:2}"; do [[ "$e" == "$1" ]] && return 0; done
+  return 1
+}
+
 copy_files()
 {
     if [ -z "$WERCKER_COPY_FILES_FLAGS" ]; then
