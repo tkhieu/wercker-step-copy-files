@@ -2,6 +2,8 @@
 
 This is a simple build step that copies files from one directory to the other. Existing files are overwritten by default.
 
+[![wercker status](https://app.wercker.com/status/ffe78486f6d2238472d8dc601adc5bd4/m "wercker status")](https://app.wercker.com/project/bykey/ffe78486f6d2238472d8dc601adc5bd4)
+
 ## Configuration
 
 * `source`: the directory containing the files to copy.
