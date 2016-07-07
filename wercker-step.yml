@@ -17,6 +17,10 @@ properties:
         type: string
         default: "-R"
         required: false
+    is_file:
+        type: boolean
+        default: true
+        required: false
     ignore_branches:
         type: string
         default: ""

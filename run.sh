@@ -15,7 +15,7 @@ copy_files()
     fi
     
     echo "Copying content from ${WERCKER_COPY_FILES_SOURCE%/}/ to ${WERCKER_COPY_FILES_DESTINATION%/}/"
-    cp $WERCKER_COPY_FILES_FLAGS ${WERCKER_COPY_FILES_SOURCE%/}/* ${WERCKER_COPY_FILES_DESTINATION%/}/
+    cp $WERCKER_COPY_FILES_FLAGS ${WERCKER_COPY_FILES_SOURCE%/} ${WERCKER_COPY_FILES_DESTINATION%/}
 }
 
 # is true if the script should run
